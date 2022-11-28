@@ -5,3 +5,8 @@ To correctly build this project, you have to correctly install the [OpenPose](ht
 ## Functions
 By this project, the pre-trained model of the Kendo motions classification model will be loaded and then human motions will be monitoring then compute the possible attack pattern.
 In addition, we applied the UR robotic arm to execute the defenses according to the predicted attack patterns.
+
+## Speed
+The running speed is related to the hardwares. 
+In my case, with 2 M5000 GPU accelerated, the frequency can be up to 120 fps.
+A simple python version program running on CPU will be released.
