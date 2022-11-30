@@ -9,4 +9,8 @@ In addition, we applied the UR robotic arm to execute the defenses according to 
 ## Speed
 The running speed is related to the hardwares. 
 In my case, with 2 M5000 GPU accelerated, the frequency can be up to 120 fps.
-A simple python version program running on CPU will be released.
+A simple python version program running on CPU will be released later.
+
+## Others
+In this project, we used the ximea cameras to capture the human motions. You have to modify the related codes to make this project suit your camera models.
+
