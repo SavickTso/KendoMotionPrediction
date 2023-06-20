@@ -21,8 +21,6 @@ Add these two parameters `-e DISPLAY=$DISPLAY`, `-v /tmp/.X11-unix:/tmp/.X11-uni
 Add parameter `--network=host`, like the command below.
 `sudo docker run -it --network=host -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --rm osrf/ros:noetic-desktop-full`
 
-## If you want to utilize GPU
-add `--gpus all` flag when launch the container.
 
 ## To save your current container as a new image
 `sudo docker commit {CONTAINER_ID} {NEW_IMAGE_NAME}`
@@ -30,3 +28,8 @@ add `--gpus all` flag when launch the container.
 use `sudo docker container ls` to check container ID.
 
 HAVE FUN!
+
+# docker cheat sheet
+`--gpus all` to utilize GPU(s).  
+`docker cp {container_ID}:{files_path} {hostmachine_path}`
+
